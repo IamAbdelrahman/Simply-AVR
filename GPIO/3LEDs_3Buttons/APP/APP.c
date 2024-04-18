@@ -45,9 +45,6 @@ void APP_Init(void) {
  * and if the button3 is pressed, all leds are on.
  *
  * PRE-CONDITION: The application is initialized
- *
- * POST-CONDITION: The application runs
-
  **********************************************************************/
 void APP_Start(void) {
     if (BUTTON_Read(PORTB, Pin0) == LOW) {
