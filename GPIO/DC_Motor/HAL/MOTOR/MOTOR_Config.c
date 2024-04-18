@@ -22,7 +22,7 @@
  * This table is read in by Motor_Init().
  */
 const MOTORConfig_t MOTORConfig[] = {
-/*   MOTOR_N        PORT			PIN      			*/
+/*  MOTOR_N          PORT			  PIN    */
     {MOTOR1,         PORTA,           Pin0},
     {MOTOR1,         PORTA,           Pin1},
     {MOTOR2,         PORTA,           Pin2},
