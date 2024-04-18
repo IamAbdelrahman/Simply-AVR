@@ -1,4 +1,3 @@
-#AVR-Self-Study
 # Author: Abdelrahman Kamal
 
 # Course:-
