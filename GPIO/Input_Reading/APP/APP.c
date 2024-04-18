@@ -41,7 +41,8 @@ void APP_Init(void) {
  *
  * Description:
  *
- * This function is used to start the application
+ * This function is used to start the application of reading 
+ * the state of a button.
  *
  * PRE-CONDITION: The application is initialized
  *
