@@ -16,7 +16,6 @@
 #define	ATMEGA32_H
 
 #include "Platform_Types.h"
-#include <util/delay.h>
 /**********************************************************************
  * Generic Macros
  **********************************************************************/
@@ -46,6 +45,7 @@ typedef enum
  * Peripheral base addresses
  **********************************************************************/
 #define DIOA_BASE     0x39
+#define DIOB_BASE     0x36
 #define SFIOR         (*((vuint8_t*)0x50))
 /**********************************************************************/
 
@@ -59,6 +59,7 @@ typedef struct {
 /***************************************************/
 /** Peripheral instances **/
 #define DIOA							(DIO_t*)(DIOA_BASE)
+#define DIOB							(DIO_t*)(DIOB_BASE)
 
 /**************************************/
 #endif	/* ATMEGA32_H */
