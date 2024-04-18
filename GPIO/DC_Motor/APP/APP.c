@@ -40,10 +40,8 @@ void APP_Init(void) {
 /**********************************************************************
  * Function :APP_Start()
  *
- * Description: This function is used to start the application
- * if the button1 is pressed, the first led only is on, 
- * if the button2 is pressed, the first and the second led are on
- * and if the button3 is pressed, all leds are on.
+ * Description: This function is used to start the application of moving
+ * a robot
  *
  * PRE-CONDITION: The application is initialized
  *
