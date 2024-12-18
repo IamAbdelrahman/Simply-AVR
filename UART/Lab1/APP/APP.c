@@ -62,6 +62,6 @@ void APP_Init(void) {
  *************************************************************************/
 void APP_Start(void) {
 	data = 'A';
-    UART_ReceiveData(&data);
+    UART_SendData(&data);
 	_delay_ms(1000);
 }
